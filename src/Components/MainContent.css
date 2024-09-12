@@ -1,0 +1,70 @@
+main {
+  padding: 20px;
+  text-align: center;
+}
+
+h1 {
+  font-size: 2.5em;
+  margin-bottom: 10px;
+  font-weight: bold;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+p {
+  font-size: 1em; /* Adjusted from 1.2em to 1em */
+  margin-bottom: 20px;
+}
+
+.signup {
+  margin-bottom: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+.input-wrapper {
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+.paragraph{
+  font-size: 1.1em;
+  margin-bottom: 15px;
+}
+
+.input-wrapper svg {
+  position: absolute;
+  left: 10px;
+  width: 1em;
+  height: 1em;
+  pointer-events: none; /* Ensures the icon doesn't interfere with input */
+}
+
+.input-wrapper input {
+  padding-left: 2em; /* Adjust padding to make space for the icon */
+  padding: 10px;
+  font-size: 1em;
+  border: 2px solid #ccc;
+  border-radius: 20px;
+  font-weight: bold;
+}
+
+.input-wrapper input::placeholder {
+  font-weight: bold;
+}
+
+.sign-button {
+  background-color: black;
+  color: white;
+  border: 2px solid white;
+  border-radius: 20px;
+  padding: 10px 20px;
+  cursor: pointer;
+  font-size: 1em;
+  font-weight: bold;
+}
+
+.sign-button:hover {
+  background-color: #333;
+}

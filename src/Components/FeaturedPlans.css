@@ -1,0 +1,96 @@
+.featured-plans {
+  padding: 20px;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.plans {
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+  flex-wrap: wrap; /* Allows wrapping to the next line if needed */
+}
+
+.strategy-plans {
+  color: #333;
+}
+
+.plan-card1, .plan-card2, .plan-card3, .plan-card4 {
+  flex: 1;
+  min-width: 200px; /* Ensures a minimum width for each card */
+  border: 1px solid #ddd;
+  padding: 20px;
+  border-radius: 20px; /* Makes the box curved */
+}
+
+.plan-card1 {
+  background-color: #74e7de;
+}
+
+.plan-card2 {
+  background-color: #000000;
+  color: white;
+}
+
+.plan-card3 {
+  background-color: #d5a0ee;
+  color: black;
+}
+
+.plan-card4 {
+  background-color: #f5e557;
+  color: black;
+}
+
+.plan-card {
+  text-align: center;
+}
+
+.plan-card h3 {
+  margin-bottom: 10px;
+  font-size: 1.2em;
+  font-weight: bold;
+}
+
+.plan-card p {
+  margin-bottom: 10px;
+  font-size: 1em;
+}
+
+.explore-all-button {
+  background-color: black;
+  color: white;
+  border: 2px solid white;
+  border-radius: 20px;
+  padding: 10px 20px;
+  cursor: pointer;
+  font-size: 1em;
+  font-weight: bold;
+  margin-top: 20px;
+  display: block;
+  margin-left: auto;
+}
+
+.explore-all-button:hover {
+  background-color: #333;
+}
+
+.percentage-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.percentage-number {
+  font-size: 2em; /* Adjust this to match your desired size */
+}
+
+.arrow-icon {
+  font-size: 2em; /* Match this to the percentage number size */
+  margin-left: 10px;
+  cursor: pointer;
+}
